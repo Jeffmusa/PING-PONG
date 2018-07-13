@@ -10,7 +10,7 @@
   background-image: url("../images/200w.webp");
   font-style: oblique;
   color:white;
-  background-size: cover;
+  background-attachment: fixed;
 }
 
 #main {
@@ -37,4 +37,11 @@
 }
 .jeff{
   color:white;
+}
+button{
+  background-color:green;
+}
+.ping{
+  font-size: 60px;
+  font-weight: bold;
 }
