@@ -18,16 +18,14 @@
 
 #about {
   padding-bottom: 50.53%;
-  background-size: cover;
   background-color: green;
 
 }
 
 #play {
   padding-bottom: 40%;
-  background-image: url("../images/20w (1).ebp");
-  background-size: auto;
-  background-color: blue;
+  background-color: black;
+  color:white;
 }
 
 .butt {
