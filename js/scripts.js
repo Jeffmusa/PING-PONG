@@ -1,3 +1,4 @@
+// BUSINESS LOGIC
 var output = function(number) {
   var array = [];
   for (var index=1; index<= number; index++) {
@@ -13,3 +14,19 @@ var output = function(number) {
     console.log(index);
     return array;
 };
+
+
+// USER INTERFACE
+
+$(document).ready(function() {
+  $("form#game").submit(function(event) {
+    $("#results").empty();
+
+    var number = parseInt($("input#numeral").val());
+    var array = output(number);
+    array.forEach(function(aftermath) {
+      $("#results").append("<li>" + aftermath + "<li>");
+
+    })
+  })
+})
