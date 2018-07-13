@@ -6,6 +6,11 @@
 .jumbotron {
   margin-bottom: 0px;
   text-align: center;
+  font-family:trashco ;
+  background-image: url("../images/200w.webp");
+  font-style: oblique;
+  color:white;
+  background-size: cover;
 }
 
 #main {
@@ -14,18 +19,22 @@
 
 #about {
   padding-bottom: 50.53%;
-  background-image: url();
   background-size: cover;
   background-color: green;
+
 }
 
 #play {
   padding-bottom: 40%;
-  background-image: url(back1.gif);
+  background-image: url("../images/20w (1).ebp");
   background-size: auto;
+  background-color: blue;
 }
 
 .butt {
   margin-left: 42%;
   margin-top: -7.5%;
+}
+.jeff{
+  color:white;
 }
