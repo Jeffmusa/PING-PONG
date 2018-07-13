@@ -6,7 +6,6 @@
 .jumbotron {
   margin-bottom: 0px;
   text-align: center;
-  font-family:trashco ;
   background-image: url("../images/200w.webp");
   font-style: oblique;
   color:white;
@@ -44,4 +43,5 @@ button{
 .ping{
   font-size: 60px;
   font-weight: bold;
+
 }
