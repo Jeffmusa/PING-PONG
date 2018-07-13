@@ -10,7 +10,7 @@
   font-style: oblique;
   color:white;
   background-attachment: fixed;
-  opacity: 1;
+   
 }
 
 #main {
@@ -40,9 +40,9 @@ button{
   background-color:green;
 }
 .ping{
-  font-size: 60px;
+  font-size: 100px;
   font-weight: bold;
-  font-family: Garamond;
+  font-family: sans-serif;
 
 
 }
