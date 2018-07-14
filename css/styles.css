@@ -1,5 +1,14 @@
 
+.shadow{
 
+  font-size:3em;
+  text-align:center;
+  text-shadow: 0 -3px 0 green,
+    10px 6px 8px rgba(2,0,0,.4),
+    10px 9px 10px rgba(2,0,0,.15),
+    10px 30px 10px rgba(2,0,0,.18),
+    10px 15px 10px rgba(2,0,0,.21);
+}
 
 #numeral {
   width: 40%;
@@ -37,6 +46,7 @@
 }
 .jeff{
   color:white;
+
 }
 button{
   background-color:green;
