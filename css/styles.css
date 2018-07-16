@@ -54,7 +54,16 @@ button{
 .ping{
   font-size: 100px;
   font-weight: bold;
-      font-family: 'Modak', Open Sans;
-
+  font-family: 'Modak', Open Sans;
+}
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  body{
+    background-color: red;
+  }
+}
+@@media screen and (min-width:768px) {
+  body{
+    background-color: green;
+  }
 
 }
